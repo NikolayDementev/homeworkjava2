@@ -1,16 +1,9 @@
 public class Main {
 
     public static void main(String[] args) {
-        int amount = 660;
-        boolean inRegistered = true;
+        int price = 12_660;
 
-        int mile;
-        if (inRegistered) {
-            mile = 1;
-        } else {
-            mile = 0;
-        }
-        int bohus = amount / 20 * mile;
+        int bohus = price / 20;
 
         System.out.println("итоговый бонус" + bohus);
     }
